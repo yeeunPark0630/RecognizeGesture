@@ -25,7 +25,7 @@ User can add one-stroke gesture in the addition fragment view. \
 In the recognition fragment, it allows to find top 3 best match gesture. \
 ![recognition view](readmeSource/recognize.png)
 
-In the library fragment, users could manage their gestures.
+In the library fragment, users could manage their gestures. \
 ![library view](readmeSource/library.png)
 
 # Technologies
