@@ -8,8 +8,8 @@
 4. [Technologies](#technologies)
 5. [Installation](#installation)
 6. [How to use?](#how-to-use)
-    * Addition(#addition)
-    * Recognition(#recognition)
+    * Addition
+    * Recognition (#recognition)
     * Library(#library)
 
 # General Information
