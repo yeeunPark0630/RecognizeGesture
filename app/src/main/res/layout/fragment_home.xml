@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+
+
+    <ca.uwaterloo.cs349.DrawOneStroke
+            android:layout_width="match_parent"
+            android:layout_height="350dp" android:id="@+id/homedraw"/>
+    <Button
+            android:text="RECOGNIZE!"
+            android:layout_below="@+id/homedraw"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/recognize" android:layout_gravity="center"/>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_below="@+id/recognize"
+            android:layout_width="match_parent"
+            android:layout_height="440dp" android:gravity="center_horizontal">
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:gravity="top">
+
+
+            <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/homeImage"
+                    android:contentDescription="TODO" app:srcCompat="@color/material_on_background_disabled"
+                    android:visibility="invisible"/>
+            <TextView
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView"
+                    android:layout_below="@id/homeImage"
+            />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:gravity="top">
+
+
+            <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/homeImage2"
+                    android:contentDescription="TODO" app:srcCompat="@color/material_on_background_disabled"/>
+            <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/homeImage2"
+            />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:gravity="top">
+
+
+            <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/homeImage3"
+                    android:contentDescription="TODO" app:srcCompat="@color/material_on_background_disabled"/>
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"
+                    android:layout_below="@id/homeImage3"
+            />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

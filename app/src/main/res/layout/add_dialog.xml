@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name for gesture"
+            android:ems="10"
+            android:id="@+id/gesture_name" tools:layout_editor_absoluteY="145dp"
+            tools:layout_editor_absoluteX="99dp" tools:ignore="MissingConstraints"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" >
+    <Button
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" android:id="@+id/addButton" tools:layout_editor_absoluteY="236dp"
+            tools:layout_editor_absoluteX="111dp" tools:ignore="MissingConstraints"/>
+    <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/cancel_button" tools:layout_editor_absoluteY="236dp"
+            tools:layout_editor_absoluteX="215dp" tools:ignore="MissingConstraints"/>
+   </LinearLayout>
+</LinearLayout>
