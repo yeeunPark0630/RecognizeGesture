@@ -9,8 +9,8 @@
 5. [Installation](#installation)
 6. [How to use?](#how-to-use)
     * Addition
-    * Recognition (#recognition)
-    * Library(#library)
+    * Recognition
+    * Library
 
 # General Information
 
